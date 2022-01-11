@@ -1,7 +1,10 @@
-function Likes_section() {
+function Likes_section(props) {
     return <>
-        <span class="likes">0 likes</span>
-        <button class="like-button">♥</button>
+        <span className="likes">{props.image.likes}</span>
+        <button className="like-button"
+            onClick={() => {
+                props.likeImage(props.image)
+            }}>♥</button>
     </>
 }
 

@@ -1,8 +1,8 @@
-function Card_section() {
+function Card_section(props) {
     return <>
 
-        <h2 class="title">Title of image goes here</h2>
-        <img src="./assets/image-placeholder.jpg" class="image" />
+        <h2 className="title">{props.image.title}</h2>
+        <img src={props.image.image} className="image" />
     </>
 
 

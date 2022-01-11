@@ -10,12 +10,21 @@ body {
   background-color: #fafafa;
 }
 
+input.search-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 33rem;
+  width: 16rem;
+  margin-bottom: 1rem;
+}
+
 img {
   max-width: 100%;
 }
 
 .logo {
-  margin-bottom: 20px;
+
   width: 400px;
 }
 
